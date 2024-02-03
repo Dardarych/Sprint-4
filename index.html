@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Twitter - Registration</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">TWITTER</a>
+      <div class="nav-links">
+        <a href="#" id="tweetsLink">Tweets</a>
+        <a href="login.html" id="loginLink">Login</a>
+        <a href="index.html" id="registerLink">Register</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <form id="registrationForm">
+    <p> EMAIL:</p>
+    <input type="email" id="email" placeholder="Email :" required>
+    <p>PASSWORD:</p>
+    <input type="password" id="password" placeholder="Password :" required>
+    <p>FULL NAME: </p>
+    <input type="text" id="fullName" placeholder="Full Name :" required>
+    <p>COUNTRY: </p>
+    <select id="country" required>
+      <option value="" disabled selected>Country :</option>
+      <option value="Kazakhstan">Kazakhstan</option>
+      <option value="Kazakhstan">Russia</option>
+    </select>
+    <p>DATE BIRTH:</p>
+    <input type="date" id="birthdate" placeholder="Birthdate :" required>
+    <button type="submit" class="btn">REGISTER</button>
+  </form>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

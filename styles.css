@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  header nav {
+    background-color: #4AB3F4;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+  }
+  
+  main {
+    margin-top: 50px;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #4AB3F4;
+    color:
+  }
